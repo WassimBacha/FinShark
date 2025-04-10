@@ -4,15 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { SearchCompanies } from './api';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './Routes/Routes';
+import { ThemeProvider } from './ThemeContext';
+
+console.log("Testing if this runs at all");  // Add this
+console.log('Router:', router);  // And this
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 console.log(SearchCompanies("tsla"));
 root.render(
+  <ThemeProvider>
   <React.StrictMode>
-    <App />
+   
+      <RouterProvider router={router} />
+    
   </React.StrictMode>
+  </ThemeProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

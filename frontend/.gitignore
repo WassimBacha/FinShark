@@ -1,7 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+# Node modules
+node_modules/
+*/node_modules/     # This catches node_modules in subdirectories
+**/node_modules/    # This catches node_modules in any nested directory
 /.pnp
 .pnp.js
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from '../../ThemeContext';
 
-const logo = "/logo.png";
+const logo = "/FinsharkLogo.png";
 
 interface Props {}
 
@@ -16,7 +16,8 @@ const Navbar = (props: Props) => {
       <div className="flex items-center justify-between dark:bg-gray-900 transition-colors duration-200">
         <div className="flex items-center space-x-20">
           <Link to="/">
-            <img src={logo} alt="FinShark logo" />
+          <img src={logo} alt="FinShark logo" className="w-24 h-auto" />
+
           </Link>
           <div className="hidden font-bold lg:flex">
             <Link to="/search" className="text-black dark:text-white hover:text-darkBlue dark:hover:text-blue-400">

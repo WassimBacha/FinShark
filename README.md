@@ -13,4 +13,4 @@ Track and analyze the evolution of your selected stocks over time
 
 This project is designed to provide an intuitive and modern user experience for anyone interested in keeping an eye on the financial markets.
 ![screencapture-localhost-3000-2025-06-15-21_56_09](https://github.com/user-attachments/assets/08c9e1fb-ca95-4d6a-9af0-b23e34b8d080)
-![FinShark Screenshot](https://user-images.githubusercontent.com/.../your-image.png)
+

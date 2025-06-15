@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Controllers
 {
-    [Route("Backend/account")]
+    [Route("backend/account")]
     [ApiController]
     public class AccountController : ControllerBase
     {

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Controllers
 {
-    [Route("Backend/portfolio")]
+    [Route("backend/portfolio")]
     [ApiController]
     public class PortfolioController : ControllerBase
     {

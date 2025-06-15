@@ -10,7 +10,7 @@ using System.Linq.Expressions;
 
 namespace Backend.Controllers
 {
-    [Route("Backend/stock")]
+    [Route("backend/stock")]
     [ApiController]
     public class StockController : ControllerBase
     {

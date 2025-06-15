@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Controllers
 {
-    [Route("Backend/comment")]
+    [Route("backend/comment")]
     [ApiController]
     public class CommentController : ControllerBase
     {
